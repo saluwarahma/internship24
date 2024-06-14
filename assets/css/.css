@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .profile-header {
+            text-align: center;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .profile-header h1 {
+            margin: 10px 0 5px;
+            font-size: 2em;
+        }
+        .profile-header p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .profile-bio {
+            margin-top: 20px;
+        }
+        .profile-bio p {
+            line-height: 1.6;
+        }
+        .profile-contact {
+            margin-top: 20px;
+        }
+        .profile-contact h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        .profile-contact ul {
+            list-style: none;
+            padding: 0;
+        }
+        .profile-contact ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="profile-picture.jpg" alt="Profile Picture">
+            <h1>John Doe</h1>
+            <p>Software Developer</p>
+        </div>
+        <div class="profile-bio">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus nibh eu metus viverra, eget consequat orci posuere. Integer suscipit leo a lacus auctor, nec pellentesque est sollicitudin. Ut bibendum quam vel ultricies tempus.</p>
+        </div>
+        <div class="profile-contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: john.doe@example.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
